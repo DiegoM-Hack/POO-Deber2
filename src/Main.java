@@ -2,14 +2,39 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        //Ejercicio #1
+        Persona persona = new Persona();
+        persona.decirHola();
+
+        //Ejercicio2
+
+        Coche coche1 = new Coche();
+        Coche coche2 = new Coche("amarllo","Aveo","HTP-12",45);
+
+        coche1.mostrarInformacion();
+        coche2.mostrarInformacion();
+
+        //Ejercicio3
+
+        Balon balon1 = new Balon("Azul", 23);
+        Balon balon2 = new Balon("Rojo", 43);
+        Balon balon3 = new Balon("Verde", 33);
+        balon1.mostrarInformacion();
+        balon2.mostrarInformacion();
+        balon3.mostrarInformacion();
+
+
+        //Ejercicio4
+
+        Libro libro1 = new Libro("El codigo Da Vinci","Nostradamus", 219);
+        Libro libro2 = new Libro();
+
+        libro1.imprimirInformacion();
+        libro2.imprimirInformacion();
+
+
+
+
     }
 }
