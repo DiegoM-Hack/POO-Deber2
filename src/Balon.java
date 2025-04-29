@@ -1,7 +1,7 @@
 public class Balon {
     String color;
     int tamano;
-
+    //Esto es un constructor con parametros
     public Balon(String color, int tamano){
         this.color = color;
         this.tamano = tamano;

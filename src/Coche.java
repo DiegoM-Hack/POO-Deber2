@@ -3,14 +3,14 @@ public class Coche {
     String marca;
     String modelo;
     int peso;
-
+    //Esto es un constructor con parametros
     public Coche(String color, String marca, String modelo, int peso) {
         this.color = color;
         this.marca = marca;
         this.modelo = modelo;
         this.peso = peso;
     }
-
+    //Esto es un constructor sin parametros
     public Coche(){
 
     }

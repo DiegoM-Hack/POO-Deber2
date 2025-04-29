@@ -9,7 +9,7 @@ public class Libro {
         this.paginas = 0;
 
     }
-
+    //Esto es un constructor con parametros
     public Libro(String titulo, String autor, int paginas) {
         this.titulo = titulo;
         this.autor = autor;
